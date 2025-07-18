@@ -75,7 +75,7 @@ int main()
         var choice;
         scanf("%d", &choice);
 
-        while(choice > 6 || check < 1){
+        while(choice > 6 || choice < 1){
             printf("Your input isn't from 1-6! Choose again!\n");
             scanf("%d", &choice);
         }
